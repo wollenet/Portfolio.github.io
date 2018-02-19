@@ -1,85 +1,56 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
 <head>
-    <title>About Me</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Contact | Ethan Wollenberg</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <header id="masthead">
+  <header id="masthead">
     <div class="container">
-        <div class="row1">
-        <div class="col-md-3">
-        <a href="index.html" id="logo">Ethan Wollenberg</a>
+      <a href="index.html" id="logo">Ethan Wollenberg</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-            <nav>
-                <div class="container">
-                    <div class="row">
-                    <div class="col-md-4">
-                    <div class="col-sm-12">
-                <a href="index.html">About</a>
-                    <div class="row">
-                    <div class="col-md-4">
-                    <div class="col-sm-12">
-                <a href="portfolio.html">Portfolio</a>
-                    <div class="row">
-                    <div class="col-md-4">
-                    <div class="col-sm-12">
-                <a href="contact.html">Contact</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <div id="main-container" class="container">
-        <section Class="main-container">
-            <h1>Contact</h1>
-
-            <form id="contact-form">
-                <div class="container">
-                    <div class="row">
-                        <div clas="col-md-12">
-                <ul>
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="John Doe" required="required">
-                    </li>
-                     <li>
-                        <label for="name">Email</label>
-                        <input type="text" name="email" id="email" placeholder="example@gmail.com" required="required">
-                    </li>
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required"></textarea>
-                    </li>
-                </ul>
-                <input type="submit" name="submit">
-            </form>
-
-
-        </section>
-
-        <section class="sidebar">
-            <div id="connect">
-                <h2>Connect with Me</h2>
-
-                <img src="assets/images/github.png" class="social" alt="Github">
-                <img src="assets/images/linkedin.png" class="social" alt="Linkedin">
-                <img src="assets/images/overflow.png" class="social" alt="Stack Overflow">
-            </div>
-        </section>
+  </header>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Ethan Wolenberg</label>
+            <input type="text" id="name" name="name" placeholder="Ethan Wolenberg" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="ewollenberg16@jcu.edu" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+    </section>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container">
+      Copyright &copy; 2018 Ethan Wollenberg
     </div>
-
-    <footer>
-        <div class="container">
-            &copy; Copyright 2016 Ethan Wollenberg
-        </div>
-    </footer>
+  </footer>
 </body>
 </html>
