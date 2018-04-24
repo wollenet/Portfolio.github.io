@@ -20,3 +20,14 @@ body {
 .portfolio {
 	color: white;
 }
+
+.card-body {
+	margin-bottom: 45%;
+}
+
+.profilepic {
+	height: 290px;
+	width: 250px;
+	
+}
+
