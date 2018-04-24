@@ -1,0 +1,22 @@
+body {
+    background-image: url('../images/green.jpg');
+    /* background-size: cover; */
+    padding-top: 50px;
+}
+
+#sticky-col {
+    position: fixed;
+    width: 15%;
+}
+
+.back {
+    padding-bottom: 30%;
+}
+
+.aboutme {
+	color: white;
+}
+
+.portfolio {
+	color: white;
+}

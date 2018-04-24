@@ -1,62 +1,273 @@
-<!doctype html>
+<!-- © 2018 Ethan Wollenberg -->
+<!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Ethan</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio | Ethan Wollenberg</title>
+    <link rel="icon" href="images/favicon-code.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117349303-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-117349303-1');
+    </script>
 </head>
+
 <body>
-  <header id="masthead">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand">
+            <i class="fa fa-code"></i> Ethan Wollenberg</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/akflaherty/Resume/blob/master/Flaherty-Resume.pdf" target="_blank">
+                        Resume</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Social Media
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://github.com/wollenet" target="_blank">
+                            <i class="fab fa-github"></i> GitHub</a>
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/anne-flaherty" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a class="dropdown-item" href="mailto:anne.flaherty@case.edu" target="_blank">
+                            <i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <br>
     <div class="container">
-      <a href="index.html" id="logo">Ethan Wollenberg</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+        <div class="row">
+            <div>
+                <h1 class="portfolio">Portfolio</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+                <div class="row">
+                    <div class="card portfolio-card col-12 col-xs-12 col-sm-12 col-md-4 html css node express react javascript mongodb">
+                        <div class="card-body front">
+                            <h5 class="card-title">Construction Smith</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/rbindas/constructionsmithinc">GitHub</a>
+                                |
+                                <a href="https://mysterious-tundra-43094.herokuapp.com/">Heroku App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Full Stack Developer</h6>
+                            <p class="card-text">
+                                This is a site that was build for a construction buisiness. The user is able to leave comments and calculate cost of construction on the site.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> React, MongoDB, Mongoose ORM, JavaScript, Node.js, NPM, Express, Passport.js, HTML, CSS
+                            </p>
+                        </div>
+                        <div class="card-body back">
+                            <h5 class="card-title">Construction Smith</h5>
+                            <img src="./images/information-premium.png" alt="Information-Premium logo" class="card-img-top">
+                        </div>
+                    </div>
+                    <div class="card portfolio-card col-12 col-xs-12 col-sm-12 col-md-4 html css node express javascript sql">
+                        <div class="card-body front">
+                            <h5 class="card-title">Sweet Basil</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/mizhanh/Recipes">GitHub</a>
+                                |
+                                <a href="https://guarded-woodland-73454.herokuapp.com/index.html">Heroku App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Full Stack Developer</h6>
+                            <p class="card-text">
+                                This site allows users to create and share recipes.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> Handlebars, MySQL, Sequelize ORM, JavaScript, Materialize, Node.js,
+                                NPM, Express, Passport.js, HTML, CSS
+                            </p>
+                        </div>
+                        <div class="card-body back">
+                            <h5 class="card-title">Sweet Basil</h5>
+                            <img src="./images/bet-party.png" alt="Bet Party login screenshot" class="card-img-top">
+                        </div>
+                    </div>
+                    <div class="card portfolio-card col-12 col-xs-12 col-sm-12 col-md-4 html css node javascript express">
+                        <div class="card-body front">
+                            <h5 class="card-title">Friend-Finder</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/wollenet/FriendFinder.github.io">GitHub</a>
+                                |
+                                <a href="https://evening-plains-29616.herokuapp.com/">Heroku App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Full Stack Developer</h6>
+                            <p class="card-text">
+                                In this app users complete a profile, and are matched to another user with similar preferences.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> JavaScript, Bootstrap, Node.js, NPM, Express, HTML, CSS
+                            </p>
+                        </div>
+                        <div class="card-body back">
+                            <h5 class="card-title">Friend-Finder</h5>
+                            <img src="./images/friend-finder.png" alt="Friend-Finder screenshot" class="card-img-top">
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+                <div class="row">
+                    <div class="card portfolio-card col-12 col-xs-12 col-sm-12 col-md-4 html css javascript">
+                        <div class="card-body front">
+                            <h5 class="card-title">Who Governs Me</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/wollenet/whogovernsme.github.io">GitHub</a>
+                                |
+                                <a href="https://wollenet.github.io/whogovernsme.github.io/">Web App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">App Developer</h6>
+                            <p class="card-text">
+                                This web app is a platform that allows the user to research their senator and congressman based on the state that they select.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> JavaScript, CSS, HTML, APIs (Google Maps, OMBD), Firebase, jQuery
+                            </p>
+                        </div>
+                        <div class="card-body back">
+                            <h5 class="card-title">Who Governs Me</h5>
+                            <img src="./images/film-finder.png" alt="Film-Finder screenshot" class="card-img-top">
+                        </div>
+                    </div>
+                    <div class="card portfolio-card col-12 col-xs-12 col-sm-12 col-md-4 node">
+                        <div class="card-body front">
+                            <h5 class="card-title">Liri Node App</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/wollenet/liri-node-app">GitHub</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Backend Developer</h6>
+                            <p class="card-text">
+                                Liri uses a CLI with Node.js to let users search for information on songs, movies, and recent posts to Twitter
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> Node.js, NPM, APIs (Twitter, Spotify, OMDB)
+                            </p>
+                        </div>
+                        <div class="card-body back">
+                            <h5 class="card-title">Liri Node App</h5>
+                            <img src="./images/liri.png" alt="Liri screenshot" class="card-img-top">
+                        </div>
+                    </div>
+                    <div class="card col-12 col-xs-12 col-sm-12 col-md-4 html javascript">
+                        <div class="card-body">
+                            <h5 class="card-title">Train Scheduler</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">
+                                <a href="https://github.com/wollenet/train_times.github.io">GitHub</a>
+                                |
+                                <a href="https://wollenet.github.io/train_times.github.io/">Web App</a>
+                            </h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Web Developer</h6>
+                            <p class="card-text">
+                                The Train Scheduler web app allows users to create entries into a database of train schedules. The time of the next train
+                                arrival is dynamically calculated and displayed to users.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> HTML, CSS, Bootstrap, Firebase, JavaScript, jQuery, AJAX, Moment.js
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+                <div class="row">
+                    <div class="card col-12 col-xs-12 col-sm-12 col-md-4 sql">
+                        <div class="card-body">
+                            <!-- <h5 class="card-title">Aggregate Data Program</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">SQL Developer @ Epic Systems</h6>
+                            <p class="card-text">
+                                The Aggregate Data Program allows hospitals across the US to submit healthcare data to a centralized database. This combined
+                                dataset was then aggregated and distributed for research.
+                            </p>
+                            <p class="card-text">
+                                I modified and documented stored procedures for data validation prior to submission. Additonally, I provided design review
+                                for dataset distribution.
+                            </p>
+                            <p class="card-text">
+                                <u>Technology used:</u> Microsoft SQL Server -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                <div class="card" id="sticky-col">
+                    <div class="card-body">
+                        <h4 class="card-title">Skills</h4>
+                        <p class="card-text">Hover over a skill to see examples:</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item skillSelect" data-skill="html">HTML / CSS</li>
+                            <li class="list-group-item skillSelect" data-skill="javascript">JavaScript</li>
+                            <li class="list-group-item skillSelect" data-skill="node">Node.js</li>
+                            <li class="list-group-item skillSelect" data-skill="react">React</li>
+                            <li class="list-group-item skillSelect" data-skill="mongodb">MongoDB</li>
+                            <li class="list-group-item skillSelect" data-skill="sql">SQL</li>
+                            <li class="list-group-item skillSelect" data-skill="express">Express</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </header>
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
-        <a href="https://github.com/wollenet/Hangman-Game">
-        <h3>Hangman</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-        <a href="https://github.com/wollenet/week-4-game/tree/master/assets">
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-        <a href="https://github.com/wollenet/TriviaGame">
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-        <h3>Rock Paper Scissors</h3>
-      </div>
-    </section>
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
-        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
-        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
-  </div>
-  <footer>
-    <div class="container">
-      Copyright &copy; 2018 Ethan Wollenberg
-    </div>
-  </footer>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Card flip script cdn -->
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+    <script>
+        // Script for highlighting by hovering
+        $(".skillSelect").hover(function () {
+            var selectClass = "." + this.dataset.skill;
+            $(selectClass).css("background-color", "#f4e842");
+            $(".skillSelect").css("opacity", "0.3");
+            $(this).css("opacity", "1");
+        }, function () {
+            var selectClass = "." + this.dataset.skill;
+            $(selectClass).css("background-color", "white");
+            $(".skillSelect").css("opacity", "1")
+        });
+
+        // Script to handle card flip
+        $(".portfolio-card").flip({
+            "speed": 125
+        });
+    </script>
 </body>
+
 </html>
